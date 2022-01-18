@@ -23,7 +23,7 @@
   display: inline-block;
   background: #f0386b;
   transform: rotate(45deg);
-  animation: heartbeat 2s linear infinite;
+  animation: heartbeat 2s linear infinite, transparency 1s;
 }
 
 .heart::before,
@@ -76,9 +76,19 @@
 
 .content {
   max-width: 70%;
-  margin-left: 20px;
+  margin-left: 40px;
   font-family: 'Neonderthaw', cursive;
   font-size: 4rem;
   text-align: center;
   color: #6b2d5c;
+  animation: transparency 1s;
+}
+
+@keyframes transparency {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
