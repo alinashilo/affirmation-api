@@ -6,14 +6,13 @@ const getData = async url => {
 }
 
 const displayAffirmation = obj => {
-  const { affirmation } = obj;
+  const { phrase } = obj[0];
   const title = document.createElement('h1');
   title.classList.add('content');
-  title.textContent = affirmation;
+  title.textContent = phrase;
   container.append(title);
 }
 
-getData("https://www.affirmations.dev").then((data) => {
+getData("https://dulce-affirmations-api.herokuapp.com/affirmation").then((data) => {
   displayAffirmation(data);
 });
-

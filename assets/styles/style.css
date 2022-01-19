@@ -78,10 +78,14 @@
   max-width: 70%;
   margin-left: 40px;
   font-family: 'Neonderthaw', cursive;
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-align: center;
   color: #6b2d5c;
   animation: transparency 1s;
+}
+
+.content::first-letter {
+  text-transform: capitalize;
 }
 
 @keyframes transparency {
