@@ -2,4 +2,4 @@
 Get your daily affirmation and receive a little dose of posititvity&#128588; 
 
 ### [Demo](https://alinashilo.github.io/affirmation-api/)
-#### [Affirmation API](https://github.com/annthurium/affirmations/)
+#### [Affirmation API](https://github.com/misselliev/affirmations-api)
