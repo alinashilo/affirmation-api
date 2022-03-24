@@ -23,7 +23,7 @@
   display: inline-block;
   background: #f0386b;
   transform: rotate(45deg);
-  animation: heartbeat 2s linear infinite, transparency 1s;
+  animation: heartbeat 2s linear infinite, transparency 3s;
 }
 
 .heart::before,
@@ -81,7 +81,7 @@
   font-size: 3.5rem;
   text-align: center;
   color: #6b2d5c;
-  animation: transparency 1s;
+  animation: transparency 3s;
 }
 
 .content::first-letter {
